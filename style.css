@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(100, 149, 237);
+}
+
+header {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: .5rem;
+  margin: .3rem 0;
+  background-color: rgb(0, 0, 139);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.main__table {
+  display: flex;
+  align-items: center;
+}
+
+.main__table__inputData {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__table__inputData h4 {
+  padding: .5rem;
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.row-delete {
+  margin-top: 2rem;
+}
+
+.row-delete > input {
+  margin: .6rem 1rem;
+}
+
+input[type="text"] {
+  padding: .4rem;
+}
+
+.main__btn-add, 
+.main__btn-delete {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
