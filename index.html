@@ -9,12 +9,15 @@
 </head>
 <body>
   <header>
-    <textarea name="input_data" cols="30" rows="10">[{"name":"name1", "value":"value1"},{"name":"name2", "value":"value2"},{"name":"name3", "value":"value3"}]</textarea>
+    <textarea name="input_data" cols="30" rows="10"
+    placeholder="Введите данные в формате JSON"></textarea>
     <button class="header__btn-load">Загрузить</button>
     <button class="header__btn-save" disabled>Сохранить</button>
+    <span class="header__error-text"></span>
   </header>
   <main>
     <button class="main__btn-add">Добавить запись</button>
+    <button class="main__btn-delete">Удалить запись</button>
     <div class="main__table"></div>
   </main>
   <script src="script.js"></script>
