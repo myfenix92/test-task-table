@@ -70,7 +70,7 @@ class TableDataEditorClass {
 
   sortData(event) {
     let nameArr = Array.from(document.querySelectorAll('.name > input'))
-      .map(e => e.value.toLowerCase());
+      .map(e => e.value);
     let valueArr = Array.from(document.querySelectorAll('.value > input'))
       .map(e => e.value);
     let dataSave = nameArr.map((_, i) => ({
